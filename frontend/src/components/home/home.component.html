@@ -1,0 +1,179 @@
+<div class="main-container">
+  <!-- Sidebar -->
+  <div class="sidebar-div">
+    <nav class="sidebar">
+      <ul>
+        <li>
+          <a href="#top">
+            <img src="https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png" alt="Hotstar Logo">
+          </a>
+        </li>
+        <li><a href="#top">🏠 Home</a></li>
+        <li><a href="#movies">🎬 Movies</a></li>
+        <li><a href="#webseries">👶 Web Series</a></li>
+        <li><a href="#tvshows">📺 TV Shows</a></li>
+        <li><a href="#sports">⚽ Sports</a></li>
+        <li><a href="javascript:void(0)" (click)="openUserModal()">👤 User</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Main Home Section -->
+  <div class="home">
+    <!-- Carousel with manual controls -->
+    <div id="carouselExampleVideos" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video class="d-block w-100" autoplay loop muted>
+            <source src="https://cdn.pixabay.com/video/2024/12/03/244754_large.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video class="d-block w-100" autoplay loop muted>
+            <source src="https://cdn.pixabay.com/video/2024/10/14/236316_large.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video class="d-block w-100" autoplay loop muted>
+            <source src="https://cdn.pixabay.com/video/2025/03/03/262215_tiny.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <!-- Manual Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleVideos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleVideos" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <hr>
+
+    <!-- Movies -->
+    <h2 class="section-title" id="movies">🎬 Trending Movies</h2>
+    <div class="movie-container">
+      <div *ngFor="let movie of movies" class="movie-card" (click)="goToDetailPage('movie', movie.id)">
+        <img [src]="movie.image" [alt]="movie.title">
+        <h3>{{ movie.title }}</h3>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Web Series -->
+    <h2 class="section-title" id="webseries">👶 Popular Web Series</h2>
+    <div class="movie-container">
+      <div *ngFor="let item of webSeries" class="movie-card" (click)="goToDetailPage('webseries', item.id)">
+        <img [src]="item.image" [alt]="item.title">
+        <h3>{{ item.title }}</h3>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- TV Shows -->
+    <h2 class="section-title" id="tvshows">📺 Top TV Shows</h2>
+    <div class="movie-container">
+      <div *ngFor="let item of tvShows" class="movie-card" (click)="goToDetailPage('tvshows', item.id)">
+        <img [src]="item.image" [alt]="item.title">
+        <h3>{{ item.title }}</h3>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Sports -->
+    <h2 class="section-title" id="sports">⚽ Live & Upcoming Sports</h2>
+    <div class="movie-container">
+      <div *ngFor="let item of sports" class="movie-card" (click)="goToDetailPage('sports', item.id)">
+        <img [src]="item.image" [alt]="item.title">
+        <h3>{{ item.title }}</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Help</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com/i/flow/login?lang=en" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/accounts/login/?hl=en" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" class="social-icon"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p class="footer-text">© 2025 Jio Hotstar. All Rights Reserved.</p>
+    </div>
+  </footer>
+</div>
+
+<!-- User Modal -->
+<div class="user-modal-backdrop" [ngClass]="{ 'show': showUserModal }" (click)="closeUserModal()">
+  <div class="user-modal" (click)="$event.stopPropagation()">
+    
+    <!-- Main User Profile View -->
+    <ng-container *ngIf="!showLoginForm && !showRegisterForm">
+      <h2>👤 User Profile</h2>
+    
+      <p *ngIf="loggedInUser">Welcome back, <strong>{{ loggedInUser }}</strong>!</p>
+      <p *ngIf="!loggedInUser">Welcome Please Login!</p>
+    
+      <ng-container *ngIf="!loggedInUser">
+        <button (click)="goToAdmin()">Admin Login</button>
+        <button (click)="toggleLoginForm()">User Login</button>
+        <button (click)="toggleRegisterForm()">Register</button>
+      </ng-container>
+    
+      <ng-container *ngIf="loggedInUser">
+        <button (click)="logout()">Logout</button>
+      </ng-container>
+    
+      <button (click)="closeUserModal()">Close</button>
+    </ng-container>
+    
+
+    <!-- Login Form -->
+    <ng-container *ngIf="showLoginForm">
+      <h2>🔐 Login</h2>
+      <form (submit)="handleLogin($event)">
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <div class="login-btns">
+          <button type="submit">Login</button>
+          <button type="button" (click)="backToProfile()">Back</button>
+        </div>
+      </form>
+    </ng-container>
+
+    <!-- Registration Form -->
+    <ng-container *ngIf="showRegisterForm">
+      <h2>📝 Register</h2>
+      <form (submit)="handleRegister($event)">
+        <input type="text" placeholder="Username" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Confirm Password" required>
+        <div class="login-btns">
+          <button type="submit">Register</button>
+          <button type="button" (click)="backToProfile()">Back</button>
+        </div>
+      </form>
+    </ng-container>
+
+  </div>
+</div>
+
+

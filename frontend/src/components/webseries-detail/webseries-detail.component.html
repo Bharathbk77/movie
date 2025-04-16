@@ -1,0 +1,43 @@
+<div class="webseries-page">
+    <div class="webseries-banner">
+      <img [src]="webseries.image" alt="{{ webseries.title }}" />
+      <div class="back-button">
+        <button type="button" (click)="goBack()">← Back</button>
+      </div>
+      <div class="overlay">
+        <h1>{{ webseries.title }}</h1>
+      </div>
+    </div>
+  
+    <div class="webseries-info">
+      <ul>
+        <li><span>Director:</span> {{ webseries.director }}</li>
+        <li><span>Actor:</span> {{ webseries.actor }}</li>
+        <li><span>Actress:</span> {{ webseries.actress }}</li>
+        <li><span>Music:</span> {{ webseries.music }}</li>
+        <li><span>Budget:</span> {{ webseries.budget }}</li>
+        <li><span>Collection:</span> {{ webseries.collection }}</li>
+        <li><span>Rating:</span> {{ webseries.rating }}</li>
+      </ul>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Help</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com/i/flow/login?lang=en" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/accounts/login/?hl=en" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" class="social-icon"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p class="footer-text">© 2025 Jio Hotstar. All Rights Reserved.</p>
+    </div>
+  </footer>
+  

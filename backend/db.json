@@ -1,0 +1,327 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Bahubali",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSwAZddfdsmgj84MRQyRDfNxl-swkZRxt2IQX3gnLkzHl3EEzyD3dduWibKdNCCqOTyaL3WIw",
+      "director": "S.S. Rajamouli",
+      "actor": "Prabhas",
+      "actress": "Anushka Shetty",
+      "music": "M.M. Keeravani",
+      "budget": "₹180 crore",
+      "collection": "₹1810 crore",
+      "rating": 9.2
+    },
+    {
+      "id": 2,
+      "title": "SVSC",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ10fis_dxJRPsgNYuciA5QhPNKGnNfkwIjK8r6edeFNHFNLLjZZQnBmNU23XsQJX-vS_Or",
+      "director": "Srikanth Addala",
+      "actor": "Venkatesh, Mahesh Babu",
+      "actress": "Samantha",
+      "music": "Mickey J Meyer",
+      "budget": "₹35 crore",
+      "collection": "₹51 crore",
+      "rating": 7.5
+    },
+    {
+      "id": 3,
+      "title": "Pushpa",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQPAQigFcssBJaq24TnvsQbwgnVywJ-mLWev97pMYKSjxGXwMou8vDNK_gvdWRI15UyOEZ02A",
+      "director": "Sukumar",
+      "actor": "Allu Arjun",
+      "actress": "Rashmika Mandanna",
+      "music": "Devi Sri Prasad",
+      "budget": "₹250 crore",
+      "collection": "₹360 crore",
+      "rating": 8.3
+    },
+    {
+      "id": 4,
+      "title": "RRR",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ_gA25hvAzvrTHQaotqRuOVJqQbWScm5Ig5dF4ctHmnF5bUjPpUFqKTHZRqrm8CwG-98ILbA",
+      "director": "S.S. Rajamouli",
+      "actor": "NTR Jr., Ram Charan",
+      "actress": "Alia Bhatt",
+      "music": "M.M. Keeravani",
+      "budget": "₹550 crore",
+      "collection": "₹1258 crore",
+      "rating": 9
+    },
+    {
+      "id": 5,
+      "title": "KGF",
+      "image": "https://media.assettype.com/filmcompanion/2023-04/dd2ab693-d3ab-441b-b7a9-ed7bb112e734/Slate_4__KGF_3_will_explore_the_protagonist_Rocky_s_life_between_the_years_1978_81.jpg",
+      "director": "Prashanth Neel",
+      "actor": "Yash",
+      "actress": "Srinidhi Shetty",
+      "music": "Ravi Basrur",
+      "budget": "₹80 crore",
+      "collection": "₹1188 crore",
+      "rating": 8.6
+    },
+    {
+      "id": 6,
+      "title": "Vikram",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQVn0y7RuNHnktmebSF6Uf_bv6Ue5ZxMmrRR1I_Yz9Bvs51_P1AMV5ku8qB98PmOVTFK_oh",
+      "director": "Lokesh Kanagaraj",
+      "actor": "Kamal Haasan",
+      "actress": "Gayathrie Shankar",
+      "music": "Anirudh Ravichander",
+      "budget": "₹120 crore",
+      "collection": "₹500 crore",
+      "rating": 8.4
+    },
+    {
+      "id": 7,
+      "title": "Master",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRswG6NZHowsW-JNXViNEDWtLlhbU2hezeURZYUP-h_Azckt1z5pLLBcua_SPRUXLCzuDs6Yw",
+      "director": "Lokesh Kanagaraj",
+      "actor": "Vijay",
+      "actress": "Malavika Mohanan",
+      "music": "Anirudh Ravichander",
+      "budget": "₹135 crore",
+      "collection": "₹300 crore",
+      "rating": 7.8
+    },
+    {
+      "id": 8,
+      "title": "Drishyam",
+      "image": "https://i.ytimg.com/vi/MpGoLXLQu_0/sddefault.jpg",
+      "director": "Jeethu Joseph",
+      "actor": "Mohanlal",
+      "actress": "Meena",
+      "music": "Anil Johnson",
+      "budget": "₹5 crore",
+      "collection": "₹75 crore",
+      "rating": 8.9
+    },
+    {
+      "id": 9,
+      "title": "Jailer",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDg4IkitIG8cCq4VvLx4JDDrGBhr39RkJpWjru13tywmTexYkBHb65nzwLELUgaMvvpXYl",
+      "director": "Nelson",
+      "actor": "Rajinikanth",
+      "actress": "Ramya Krishnan",
+      "music": "Anirudh Ravichander",
+      "budget": "₹200 crore",
+      "collection": "₹650 crore",
+      "rating": 8.2
+    },
+    {
+      "id": 10,
+      "title": "Leo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZorcQ8q5HnwPB8MfA2I7-_BLk92pyAYlV5GPh9RvyznAjCBCzHs7LwdNVnJ3eELehoQSk",
+      "director": "Lokesh Kanagaraj",
+      "actor": "Vijay",
+      "actress": "Trisha",
+      "music": "Anirudh Ravichander",
+      "budget": "₹250 crore",
+      "collection": "₹620 crore",
+      "rating": 7.9
+    }
+  ],
+  "webseries": [
+    {
+      "id": 11,
+      "title": "Stranger Things",
+      "image": "https://image.tmdb.org/t/p/original/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
+      "director": "The Duffer Brothers",
+      "actor": "Finn Wolfhard",
+      "actress": "Millie Bobby Brown",
+      "music": "Kyle Dixon & Michael Stein",
+      "budget": "₹500 crore",
+      "collection": "₹3000 crore",
+      "rating": 9
+    },
+    {
+      "id": 12,
+      "title": "Mirzapur",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTFjMzMxZTUtYTMyNy00OWNhLTk4ODQtNGI1NjI1NjJhMzc3XkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "director": "Karan Anshuman",
+      "actor": "Pankaj Tripathi",
+      "actress": "Shweta Tripathi",
+      "music": "John Stewart Eduri",
+      "budget": "₹50 crore",
+      "collection": "₹300 crore",
+      "rating": 8.5
+    },
+    {
+      "id": 13,
+      "title": "The Family Man",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRozXRE4oMmMybGPC4WQkMHMmU8j0Qsg9HYJQCozi1Cg3Mha7j5oI-TliQhDeQR460I3ih87Q",
+      "director": "Raj & DK",
+      "actor": "Manoj Bajpayee",
+      "actress": "Priyamani",
+      "music": "Ketan Sodha",
+      "budget": "₹40 crore",
+      "collection": "₹250 crore",
+      "rating": 8.8
+    },
+    {
+      "id": 14,
+      "title": "Money Heist",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRX9K7nuwfgGIh_ZoSQ7HZ_Gksne-lnL0zY8cboUtkVfoR4NIYeYGl3aAS6ObNS2dT8ixFNEB7KvdTsLdnXxYlHnCpCe8P8gIcjJm4ezuQ",
+      "director": "Álex Pina",
+      "actor": "Álvaro Morte",
+      "actress": "Úrsula Corberó",
+      "music": "Manel Santisteban",
+      "budget": "₹200 crore",
+      "collection": "₹1500 crore",
+      "rating": 8.9
+    },
+    {
+      "id": 15,
+      "title": "Breaking Bad",
+      "image": "https://image.tmdb.org/t/p/original/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+      "director": "Vince Gilligan",
+      "actor": "Bryan Cranston",
+      "actress": "Anna Gunn",
+      "music": "Dave Porter",
+      "budget": "₹150 crore",
+      "collection": "₹1800 crore",
+      "rating": 9.5
+    }
+  ],
+  "tvshows": [
+    {
+      "id": 16,
+      "title": "Friends",
+      "image": "https://image.tmdb.org/t/p/original/f496cm9enuEsZkSPzCwnTESEK5s.jpg",
+      "director": "David Crane, Marta Kauffman",
+      "actor": "Matthew Perry",
+      "actress": "Jennifer Aniston",
+      "music": "The Rembrandts",
+      "budget": "₹100 crore",
+      "collection": "₹1200 crore",
+      "rating": 8.9
+    },
+    {
+      "id": 17,
+      "title": "The Office",
+      "image": "https://image.tmdb.org/t/p/original/qWnJzyZhyy74gjpSjIXWmuk0ifX.jpg",
+      "director": "Greg Daniels",
+      "actor": "Steve Carell",
+      "actress": "Jenna Fischer",
+      "music": "Jay Ferguson",
+      "budget": "₹80 crore",
+      "collection": "₹950 crore",
+      "rating": 8.8
+    },
+    {
+      "id": 18,
+      "title": "Sherlock",
+      "image": "https://image.tmdb.org/t/p/original/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
+      "director": "Mark Gatiss, Steven Moffat",
+      "actor": "Benedict Cumberbatch",
+      "actress": "Una Stubbs",
+      "music": "David Arnold, Michael Price",
+      "budget": "₹90 crore",
+      "collection": "₹1100 crore",
+      "rating": 9.1
+    },
+    {
+      "id": 19,
+      "title": "Game of Thrones",
+      "image": "https://image.tmdb.org/t/p/original/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+      "director": "David Benioff, D. B. Weiss",
+      "actor": "Kit Harington",
+      "actress": "Emilia Clarke",
+      "music": "Ramin Djawadi",
+      "budget": "₹1500 crore",
+      "collection": "₹8000 crore",
+      "rating": 9.3
+    },
+    {
+      "id": 20,
+      "title": "Big Bang Theory",
+      "image": "https://image.tmdb.org/t/p/original/ooBGRQBdbGzBxAVfExiO8r7kloA.jpg",
+      "director": "Chuck Lorre, Bill Prady",
+      "actor": "Jim Parsons",
+      "actress": "Kaley Cuoco",
+      "music": "Barenaked Ladies",
+      "budget": "₹200 crore",
+      "collection": "₹1800 crore",
+      "rating": 8.2
+    }
+  ],
+  "sports": [
+    {
+      "id": 21,
+      "title": "FIFA World Cup 2022",
+      "image": "https://i0.wp.com/mynintendonews.com/wp-content/uploads/2021/12/fifa_22.jpg?fit=1536%2C864&ssl=1",
+      "director": "FIFA",
+      "actor": "Lionel Messi",
+      "actress": "N/A",
+      "music": "Official Theme",
+      "budget": "₹12000 crore",
+      "collection": "₹25000 crore",
+      "rating": 9.5
+    },
+    {
+      "id": 22,
+      "title": "IPL 2025",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/18/2025_IPL_logo.png",
+      "director": "BCCI",
+      "actor": "MS Dhoni",
+      "actress": "N/A",
+      "music": "Theme Song",
+      "budget": "₹800 crore",
+      "collection": "₹6000 crore",
+      "rating": 9
+    },
+    {
+      "id": 23,
+      "title": "Wimbledon 2023",
+      "image": "https://m.media-amazon.com/images/I/81LMpcoZSCL._AC_UF1000,1000_QL80_.jpg",
+      "director": "All England Club",
+      "actor": "Carlos Alcaraz",
+      "actress": "Iga Swiatek",
+      "music": "Wimbledon Theme",
+      "budget": "₹400 crore",
+      "collection": "₹2000 crore",
+      "rating": 8.7
+    },
+    {
+      "id": 24,
+      "title": "Cricket World Cup 2024",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQHTwjSFXxpQGA/feedshare-shrink_800/feedshare-shrink_800/0/1719699954658?e=2147483647&v=beta&t=pfXpGFXCSK5GecQcnXVhpUyrLfuiMjvqRiNKf7NvmP4",
+      "director": "ICC",
+      "actor": "Ben Stokes",
+      "actress": "N/A",
+      "music": "Official Anthem",
+      "budget": "₹1000 crore",
+      "collection": "₹5000 crore",
+      "rating": 9.1
+    },
+    {
+      "id": 25,
+      "title": "Paris Olympics 2024",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQBLppWpfXqEL5lLSWJx8ij7Rc2F6sz9dttw&s",
+      "director": "IOC",
+      "actor": "Neeraj Chopra",
+      "actress": "PV Sindhu",
+      "music": "Olympics Anthem",
+      "budget": "₹25000 crore",
+      "collection": "₹55000 crore",
+      "rating": 9.4
+    }
+  ],
+  "users": [
+    {
+      "id": 1744177267087,
+      "username": "bk77",
+      "password": "123"
+    },
+    {
+      "id": 1744179160116,
+      "username": "naveen",
+      "password": "123"
+    },
+    {
+      "id": 1744181540497,
+      "username": "sravya",
+      "password": "123"
+    }
+  ]
+}

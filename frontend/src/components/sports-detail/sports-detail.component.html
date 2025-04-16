@@ -1,0 +1,43 @@
+<div class="sports-page">
+    <div class="sports-banner">
+      <img [src]="sports.image" alt="{{ sports.title }}" />
+      <div class="back-button">
+        <button type="button" (click)="goBack()">← Back</button>
+      </div>
+      <div class="overlay">
+        <h1>{{ sports.title }}</h1>
+      </div>
+    </div>
+  
+    <div class="sports-info">
+      <ul>
+        <li><span>Director:</span> {{ sports.director }}</li>
+        <li><span>Actor:</span> {{ sports.actor }}</li>
+        <li><span>Actress:</span> {{ sports.actress }}</li>
+        <li><span>Music:</span> {{ sports.music }}</li>
+        <li><span>Budget:</span> {{ sports.budget }}</li>
+        <li><span>Collection:</span> {{ sports.collection }}</li>
+        <li><span>Rating:</span> {{ sports.rating }}</li>
+      </ul>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Help</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com/" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" class="social-icon"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p class="footer-text">© 2025 Jio Hotstar. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
